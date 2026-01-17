@@ -1,4 +1,12 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/pages/layout/$1" }],
-  "cleanUrls": true
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/pages/layout/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
 }
