@@ -1,6 +1,6 @@
 # 프로젝트명
 
-웹 기본 템플릿 -  https://odada-o.github.io/-themplates-html-scss-js/pages/
+웹 기본 템플릿 - https://odada-o.github.io/-themplates-html-scss-js/pages/
 
 ## 프로젝트 구조
 
@@ -411,8 +411,11 @@ function onYouTubePlayerAPIReady() {
       },
     },
   });
-}
-```
 
-# -krds-html-scss-js
-# -themplates-html-scss-js
+
+// 9/11 SM엔터 리뉴얼 페이지 보완사항
+// 1. footer 완성
+// 2. mobile, tablet 드로어메뉴 완성
+// 3. primary color 연구해서 적용하기
+// 4. 메인 swiper 보완하기
+// 이 보완 사항들은 나의 두번째 html scss js 프로젝트를 완성하고 그 경험을 바탕으로 보완하기

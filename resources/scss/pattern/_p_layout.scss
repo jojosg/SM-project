@@ -48,8 +48,10 @@
 
 // header
 #header {
-  position: relative;
+  background: transparent;
+  position: fixed;
   z-index: 1000;
+  width: 100%;
   .inner {
     display: flex;
     justify-content: space-between;
@@ -67,10 +69,8 @@
       transform: none;
     }
     a {
+      margin-top: 16px;
       display: block;
-      width: 300px;
-      height: 55px;
-      background: url("../../../resources/images/pattern/common/head_logo.png") no-repeat 0 0 / contain;
     }
     span {
       @include sr-only;
@@ -89,14 +89,17 @@
     > li {
       position: relative;
       > a {
+        color: white;
+        font-weight: bold;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 102px;
-        padding: 0 50px;
+        height: 95px;
+        padding: 0 30px;
         font-size: 1.8rem;
         &:hover {
           text-decoration: none;
+          color: $secondary;
         }
         span {
           position: relative;
@@ -113,16 +116,19 @@
   display: flex;
   gap: 10px;
   .lang {
-    display: none;
-    position: relative;
-    @include tabletMore {
-      display: block;
-    }
-    &.active {
-      .lang__btn::after {
-        content: "\f106";
-        @include lineAwesome;
+    cursor: pointer;
+
+    .lang__btn {
+      font-size: 38px;
+      color: white;
+      &:hover {
+        color: $secondary;
       }
+    }
+
+    position: relative;
+
+    &.active {
       .lang__lst {
         display: block;
       }
@@ -131,24 +137,22 @@
       height: 57px;
       margin-right: 10px;
       text-transform: uppercase;
-      &::after {
-        content: "\f107";
-        @include lineAwesome;
-        margin-left: 5px;
-        color: $gray-50;
-      }
     }
     &__lst {
       display: none;
       position: absolute;
       top: 52px;
-      left: 0;
-      width: 90%;
-      border: 1px solid $gray-40;
+      left: -65px;
+      width: 100px;
+      border-radius: 10px;
       background: $white;
       text-align: center;
+      overflow: hidden;
       li {
-        padding: 5px 0;
+        &:hover {
+          background-color: $primary;
+        }
+        padding: 10px 5px;
         text-transform: uppercase;
         &:first-child {
           border-bottom: 1px solid $gray-40;
@@ -164,6 +168,7 @@
       content: "\f0c9";
       @include lineAwesome;
       font-size: 3rem;
+      color: white;
     }
   }
 }
@@ -179,8 +184,157 @@
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   transition: all 0.3s;
+  .nav-all-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .nav-all-header {
+      .close {
+        font-size: 3rem;
+
+        color: $gray-90;
+        cursor: pointer;
+
+        .blind {
+          @include sr-only;
+        }
+      }
+    }
+  }
   &.active {
     display: block;
     left: 0;
+    .gnb__depth1 {
+      li {
+        padding: 18px 0px;
+        border-bottom: 1px solid $gray-20;
+        a {
+          font-size: 18px;
+
+          font-weight: 700;
+          color: #aaa;
+          &:hover {
+            text-decoration: none;
+            color: $secondary;
+          }
+        }
+      }
+    }
   }
+}
+
+#header.scrolled {
+  background-color: $white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+  .gnb__depth1 > li > a {
+    color: $gray-90; // 어두운 텍스트 색상
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  .util .lang .lang__btn {
+    color: $gray-90; // 언어 아이콘 색상
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  .lang__lst li {
+    &:hover {
+      background: $secondary;
+      color: #fff;
+    }
+  }
+
+  .util .all-menu::before {
+    color: $gray-90;
+  }
+  #logo svg path {
+    fill: black;
+    transition: fill 0.3s ease;
+  }
+}
+
+#footer {
+  background: #f9f9f9;
+  overflow: hidden;
+  padding-bottom: 50px;
+  .foot_content_mo {
+    display: none;
+    @include mobile {
+      display: block;
+      padding: 30px $p-mobile;
+    }
+    .footer_left {
+      width: 100%;
+    }
+    .footer_right {
+      width: 100%;
+    }
+  }
+}
+.foot_content_pc {
+  @include mobile {
+    display: none;
+  }
+  margin: 0 auto 50px;
+  max-width: 1440px;
+  position: relative;
+  padding: 50px 0;
+  color: #999;
+  @include tablet {
+    padding: 50px $p-tablet;
+  }
+  @include mobile {
+    padding: 30px $p-mobile;
+  }
+}
+.footer_logo {
+  transform: scale(0.8);
+  transform-origin: 0 50%;
+  a {
+    margin-top: 16px;
+    display: block;
+  }
+  span {
+    @include sr-only;
+  }
+}
+.footer_left {
+  width: calc(100% - 156px);
+  float: left;
+  text-align: left;
+  .copyright {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    font-weight: 700;
+  }
+  .link_txt {
+    display: inline-block;
+    margin-right: 9%;
+    margin-bottom: 10px;
+  }
+  .link_social {
+    font-size: 12px;
+    display: inline-block;
+    li {
+      display: inline-block;
+      margin-left: 24px;
+      text-align: right;
+      @include mobile {
+        margin-left: 0;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+.footer_right {
+  width: auto;
+  float: right;
+  text-align: right;
 }

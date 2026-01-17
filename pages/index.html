@@ -3,18 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KRDS themplate</title>
+    <title>SM Entertainment</title>
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="페이지 제목" />
     <meta property="og:description" content="페이지 설명" />
     <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg" />
     <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="페이지 제목" />
     <meta name="twitter:description" content="페이지 설명" />
     <meta name="twitter:image" content="http://www.mysite.com/article/article1.html" />
     <meta name="twitter:domain" content="사이트 명" />
-    <link rel="shortcut icon" href="http://www.mysite.com/favicon.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -26,261 +23,511 @@
     <script defer src="../resources/js/ui-swiper.js"></script>
   </head>
   <body>
-    <div id="skip-nav">
-      <a href="#gnb">메뉴 바로가기</a>
-      <a href="#container">본문 바로가기</a>
-    </div>
-    <div id="wrap">
-      <header id="header" class="">
-        <div class="inner">
-          <h1 id="logo">
-            <a href="#">
-              <span>logo</span>
-            </a>
-          </h1>
-          <nav id="gnb" class="gnb">
+    <div>
+      <div id="skip-nav">
+        <a href="#gnb">메뉴 바로가기</a>
+        <a href="#container">본문 바로가기</a>
+      </div>
+      <div id="wrap">
+        <header id="header" class="">
+          <div class="inner">
+            <h1 id="logo">
+              <a href="#">
+                <svg width="81" height="56" viewBox="0 0 81 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_100_146)">
+                    <path
+                      d="M22.0268 55.9938C19.4351 55.9938 16.9995 54.982 15.1696 53.1459L1.51134 39.4564C0.530843 38.4759 0 37.1707 0 35.7843C0 34.3978 0.549578 33.0988 1.53008 32.1183C3.54103 30.1199 6.81352 30.1324 8.81199 32.1371L24.9558 48.3184C26.1424 49.5112 27.6225 50.3044 29.2338 50.6291C31.1886 47.3816 30.7701 43.0974 27.9785 40.2995L8.8557 21.1268C5.07111 17.3297 5.07111 11.1594 8.8557 7.36233C10.6918 5.52624 13.1274 4.50827 15.7192 4.50827C15.7567 4.50827 15.7941 4.50827 15.8316 4.50827C16.2126 3.90873 16.6685 3.34042 17.1868 2.82207C20.9714 -0.95004 27.1167 -0.93755 30.8888 2.8408L44.647 16.6365L59.0672 2.20379C60.9657 0.305247 63.6824 -0.238086 66.1617 0.786128C68.079 1.57927 69.4342 3.13432 69.9588 5.04536C71.7887 4.04612 73.9682 3.92122 75.9979 4.75808C78.7021 5.87597 80.3883 8.39903 80.3883 11.3343V34.0356C80.3883 37.2082 77.8153 39.7874 74.649 39.7874C71.4826 39.7874 68.9096 37.2082 68.9096 34.0356V7.48723L55.982 20.4523C54.733 21.7013 53.0718 22.3945 51.3106 22.3945C49.5432 22.3945 47.882 21.7076 46.633 20.4523L44.647 18.4663L43.1294 19.9901C40.0318 23.094 36.3658 23.0003 33.1246 19.7466L21.6834 8.27413C20.2907 6.8752 18.4921 6.02586 16.556 5.8385C15.944 7.01884 15.6193 8.34283 15.613 9.71677C15.613 11.9775 16.4873 14.1009 18.0799 15.6997L37.796 35.4658C41.5806 39.2628 41.5806 45.4394 37.796 49.2364C35.9599 51.0788 33.518 52.0905 30.9263 52.0905C30.564 52.0905 30.2081 52.0718 29.8583 52.0343C29.5711 52.4277 29.2525 52.8025 28.8966 53.1522C27.0667 54.9883 24.6248 56 22.0331 56L22.0268 55.9938ZM5.16479 31.9122C4.17804 31.9122 3.1913 32.2869 2.43563 33.0364C1.6987 33.7671 1.28651 34.7476 1.28651 35.7905C1.28651 36.8335 1.68621 37.814 2.42314 38.5509L16.0752 52.2404C17.6614 53.8329 19.7786 54.7135 22.0268 54.7135C24.2751 54.7135 26.386 53.8329 27.9785 52.2404C28.1347 52.0843 28.2783 51.9281 28.4219 51.7595C26.7857 51.3223 25.2806 50.4605 24.0503 49.2302L7.90643 33.0489C7.15076 32.2932 6.15777 31.9122 5.16479 31.9122ZM30.614 50.7977C30.7139 50.7977 30.8138 50.7977 30.9138 50.7977C33.1683 50.7977 35.2854 49.9172 36.8779 48.3184C40.1629 45.0209 40.1629 39.6563 36.8779 36.3588L17.1618 16.5927C15.3257 14.7504 14.3203 12.3023 14.3203 9.70428C14.3203 8.34283 14.6013 7.01884 15.1321 5.80727C13.1024 5.94467 11.2101 6.80651 9.76126 8.26164C6.47628 11.5529 6.47628 16.9175 9.76126 20.2087L28.8841 39.3815C31.9567 42.4604 32.5313 47.1131 30.614 50.7852V50.7977ZM70.1774 6.40681C70.1836 6.54421 70.1899 6.68785 70.1899 6.82524V34.0356C70.1899 36.4962 72.1883 38.5009 74.6427 38.5009C77.0971 38.5009 79.0955 36.4962 79.0955 34.0356V11.3343C79.0955 8.92988 77.7153 6.86271 75.4983 5.95091C73.6934 5.20773 71.7449 5.39509 70.1711 6.40681H70.1774ZM45.5525 17.5545L47.5385 19.5467C48.544 20.5585 49.8805 21.108 51.3044 21.108C52.7283 21.108 54.0648 20.5522 55.0702 19.5467L68.2726 6.30689C68.4475 6.13202 68.6286 5.96965 68.8097 5.81352C68.4849 4.08984 67.3421 2.66593 65.6621 1.97272C63.6699 1.14835 61.4903 1.58551 59.9665 3.10934L45.5463 17.5545H45.5525ZM17.3055 4.63942C19.2977 4.96417 21.1338 5.9072 22.5889 7.36233L34.0301 18.8348C36.7718 21.5827 39.6133 21.6888 42.2176 19.0783L43.7414 17.5545L29.977 3.7526C26.7045 0.473867 21.3773 0.461377 18.0924 3.73387C17.8051 4.02114 17.5428 4.32091 17.3055 4.63317V4.63942Z"
+                      fill="white"
+                    ></path>
+                    <path d="M74.6426 55.3384C71.2577 55.3384 68.5098 52.578 68.5098 49.1931C68.5098 45.8082 71.2639 43.0479 74.6426 43.0479C78.0212 43.0479 80.7754 45.8082 80.7754 49.1931C80.7754 52.578 78.0212 55.3384 74.6426 55.3384ZM74.6426 44.3281C71.9696 44.3281 69.79 46.5077 69.79 49.1931C69.79 51.8786 71.9634 54.0582 74.6426 54.0582C77.3218 54.0582 79.4888 51.8786 79.4888 49.1931C79.4888 46.5077 77.3155 44.3281 74.6426 44.3281Z" fill="white"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_100_146">
+                      <rect width="80.7755" height="56" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span>logo</span>
+              </a>
+            </h1>
+            <nav id="gnb" class="gnb">
+              <ul class="gnb__depth1">
+                <li>
+                  <a href="#">
+                    <span>COMPANY</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"><span>ARTIST</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>NEWSROOM</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>AUDITION</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>SERVICE</span></a>
+                </li>
+              </ul>
+            </nav>
+            <div class="util">
+              <!-- active 추가시 활성화 -->
+              <div class="lang">
+                <button class="lang__btn">
+                  <i class="las la-globe"></i>
+                </button>
+                <ul class="lang__lst">
+                  <li>한국어</li>
+                  <li>English</li>
+                </ul>
+              </div>
+              <button class="search">
+                <span class="blind">검색</span>
+              </button>
+              <button class="all-menu">
+                <span class="blind">전체메뉴</span>
+              </button>
+            </div>
+          </div>
+          <!-- active 추가시 활성화 -->
+          <nav id="nav-all" class="">
             <ul class="gnb__depth1">
+              <div class="nav-all-header">
+                <svg width="253" height="56" viewBox="0 0 253 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_291_4264)">
+                    <path
+                      d="M94.2349 14.573L95.5842 13.1113C96.1588 13.686 97.4893 14.8666 99.7069 14.8666C101.718 14.8666 102.412 14.0483 102.412 13.2175C102.412 11.9682 101.094 11.7433 100.057 11.4622C98.8636 11.1312 97.9578 11.0125 96.8647 10.544C95.2531 9.86311 94.7846 8.70126 94.7846 7.7268C94.7846 5.50304 97.177 4.30371 99.482 4.30371C101.35 4.30371 103.174 4.97833 104.279 5.95279L103.236 7.51442C102.368 6.85229 101.137 6.22764 99.4945 6.22764C98.1452 6.22764 96.9084 6.62741 96.9084 7.67058C96.9084 8.53885 97.6518 8.90739 99.6132 9.35714C101.468 9.77566 104.535 10.3816 104.535 13.2487C104.535 15.8348 101.918 16.8592 99.7881 16.8592C96.6148 16.8592 94.7784 15.1914 94.2224 14.5667"
+                      fill="black"
+                    ></path>
+                    <path d="M119.465 4.50977V16.6592H117.366V8.17647L113.468 13.5485L109.583 8.15773V16.6592H107.502V4.50977H109.426L113.449 10.1754L117.472 4.50977H119.465Z" fill="black"></path>
+                    <path d="M95.0469 25.3545H104.179V27.3221H97.1644V30.1018H102.362V32.082H97.1644V35.5238H104.267V37.504H95.0469V25.3545Z" fill="black"></path>
+                    <path d="M107.246 25.3545H109.17L115.704 33.8685L115.717 25.3545H117.797V37.504H115.892L109.32 28.9525V37.504H107.246V25.3545Z" fill="black"></path>
+                    <path d="M124.312 27.3346H120.495V25.3545H130.252V27.3346H126.442V37.504H124.312V27.3346Z" fill="black"></path>
+                    <path d="M132.957 25.3545H142.089V27.3221H135.068V30.1018H140.272V32.082H135.068V35.5238H142.177V37.504H132.957V25.3545Z" fill="black"></path>
+                    <path d="M145.15 25.3545H151.334C153.97 25.3545 154.801 27.3721 154.801 29.0025C154.801 30.3767 154.195 31.9883 152.446 32.4943L155.444 37.4977H153.089L150.266 32.6692H147.268V37.4977H145.15V25.3545ZM151.128 30.689C152.171 30.689 152.69 30.0144 152.69 29.0025C152.69 27.9905 152.19 27.3534 151.216 27.3534H147.261V30.689H151.122H151.128Z" fill="black"></path>
+                    <path d="M160.436 27.3346H156.619V25.3545H166.376V27.3346H162.566V37.504H160.436V27.3346Z" fill="black"></path>
+                    <path d="M172.129 25.2861H173.984L179.631 37.4981H177.376L176.095 34.6684H169.924L168.606 37.4981H166.476L172.123 25.2861H172.129ZM175.215 32.7382L173.047 27.9784L170.83 32.7382H175.215Z" fill="black"></path>
+                    <path d="M184.054 25.3545H181.936V37.4977H184.054V25.3545Z" fill="black"></path>
+                    <path d="M187.739 25.3545H189.663L196.191 33.8685L196.209 25.3545H198.289V37.504H196.384L189.813 28.9525V37.504H187.739V25.3545Z" fill="black"></path>
+                    <path d="M213.812 25.3545V37.504H211.719V29.0212L207.815 34.3932L203.936 29.0025V37.504H201.856V25.3545H203.78L207.803 31.0201L211.819 25.3545H213.812Z" fill="black"></path>
+                    <path d="M217.379 25.3545H226.511V27.3221H219.496V30.1018H224.693V32.082H219.496V35.5238H226.599V37.504H217.379V25.3545Z" fill="black"></path>
+                    <path d="M229.578 25.3545H231.502L238.036 33.8685L238.048 25.3545H240.128V37.504H238.223L231.658 28.9525V37.504H229.578V25.3545Z" fill="black"></path>
+                    <path d="M246.644 27.3346H242.833V25.3545H252.59V27.3346H248.774V37.504H246.644V27.3346Z" fill="black"></path>
+                    <path
+                      d="M22.0315 55.9996C19.4392 55.9996 17.003 54.9877 15.1728 53.1512L1.51166 39.4588C0.530954 38.4781 0 37.1726 0 35.7859C0 34.3992 0.549693 33.0999 1.5304 32.1192C3.54177 30.1203 6.81495 30.1328 8.81383 32.1379L24.9611 48.3226C26.1479 49.5157 27.6283 50.309 29.2399 50.6339C31.1951 47.3857 30.7766 43.1006 27.9844 40.3021L8.85756 21.1253C5.07217 17.3274 5.07217 11.1559 8.85756 7.35801C10.694 5.52154 13.1302 4.50336 15.7225 4.50336C15.76 4.50336 15.7974 4.50336 15.8349 4.50336C16.216 3.90369 16.6719 3.33526 17.1904 2.8168C20.9758 -0.956098 27.1224 -0.943605 30.8953 2.83554L44.6563 16.6341L59.0795 2.19839C60.9785 0.299451 63.6957 -0.243996 66.1756 0.780433C68.0933 1.57374 69.4487 3.12912 69.9734 5.04055C71.8037 4.04111 73.9837 3.91618 76.0138 4.75322C78.7186 5.87134 80.4051 8.39493 80.4051 11.3308V34.0369C80.4051 37.2101 77.8316 39.7899 74.6646 39.7899C71.4976 39.7899 68.924 37.2101 68.924 34.0369V7.48294L55.9938 20.4507C54.7444 21.7 53.0829 22.3934 51.3214 22.3934C49.5536 22.3934 47.892 21.7063 46.6427 20.4507L44.6563 18.4643L43.1384 19.9885C40.0402 23.093 36.3735 22.9993 33.1315 19.7448L21.6879 8.27C20.2949 6.87078 18.4959 6.02126 16.5595 5.83386C15.9474 7.01445 15.6225 8.33871 15.6163 9.71295C15.6163 11.9742 16.4908 14.098 18.0837 15.6971L37.8039 35.4673C41.5893 39.2652 41.5893 45.443 37.8039 49.2409C35.9674 51.0836 33.525 52.0955 30.9327 52.0955C30.5704 52.0955 30.2144 52.0768 29.8646 52.0393C29.5772 52.4328 29.2587 52.8076 28.9026 53.1574C27.0724 54.9939 24.63 56.0059 22.0377 56.0059L22.0315 55.9996ZM5.16587 31.9131C4.17892 31.9131 3.19197 32.2878 2.43614 33.0374C1.69905 33.7683 1.28678 34.749 1.28678 35.7921C1.28678 36.8353 1.68656 37.816 2.42365 38.5531L16.0785 52.2455C17.6651 53.8383 19.7827 54.7191 22.0315 54.7191C24.2802 54.7191 26.3915 53.8383 27.9844 52.2455C28.1405 52.0893 28.2842 51.9331 28.4279 51.7645C26.7913 51.3272 25.2859 50.4652 24.0553 49.2346L7.90809 33.0499C7.15226 32.2941 6.15906 31.9131 5.16587 31.9131ZM30.6204 50.8025C30.7204 50.8025 30.8203 50.8025 30.9202 50.8025C33.1752 50.8025 35.2928 49.9218 36.8857 48.3226C40.1713 45.0245 40.1713 39.6587 36.8857 36.3606L17.1654 16.5904C15.3289 14.7476 14.3233 12.299 14.3233 9.70045C14.3233 8.33871 14.6044 7.01445 15.1353 5.80263C13.1052 5.94005 11.2125 6.80207 9.7633 8.25751C6.47764 11.5494 6.47764 16.9152 9.7633 20.2071L28.8901 39.3839C31.9634 42.4634 32.5381 47.1171 30.6204 50.79V50.8025ZM70.1921 6.40229C70.1983 6.53972 70.2046 6.68339 70.2046 6.82081V34.0369C70.2046 36.498 72.2035 38.5031 74.6583 38.5031C77.1132 38.5031 79.1121 36.498 79.1121 34.0369V11.3308C79.1121 8.92589 77.7316 6.85829 75.5141 5.9463C73.7089 5.20296 71.76 5.39036 70.1858 6.40229H70.1921ZM45.5621 17.5523L47.5485 19.545C48.5542 20.5569 49.8909 21.1066 51.3151 21.1066C52.7393 21.1066 54.0761 20.5506 55.0818 19.545L68.2869 6.30235C68.4618 6.12745 68.6429 5.96504 68.8241 5.80888C68.4993 4.08484 67.3562 2.66063 65.6758 1.96727C63.6832 1.14273 61.5032 1.57999 59.979 3.10414L45.5558 17.5523H45.5621ZM17.3091 4.63453C19.3017 4.95935 21.1382 5.90257 22.5936 7.35801L34.0373 18.8329C36.7795 21.5813 39.6216 21.6875 42.2264 19.0765L43.7506 17.5523L29.9833 3.74753C26.7101 0.468107 21.3818 0.455614 18.0962 3.72879C17.8088 4.01613 17.5465 4.31596 17.3091 4.62828V4.63453Z"
+                      fill="black"
+                    ></path>
+                    <path d="M74.6582 55.3439C71.2726 55.3439 68.5242 52.583 68.5242 49.1974C68.5242 45.8117 71.2789 43.0508 74.6582 43.0508C78.0376 43.0508 80.7923 45.8117 80.7923 49.1974C80.7923 52.583 78.0376 55.3439 74.6582 55.3439ZM74.6582 44.3313C71.9847 44.3313 69.8047 46.5114 69.8047 49.1974C69.8047 51.8834 71.9785 54.0634 74.6582 54.0634C77.338 54.0634 79.5055 51.8834 79.5055 49.1974C79.5055 46.5114 77.3318 44.3313 74.6582 44.3313Z" fill="black"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_291_4264">
+                      <rect width="252.59" height="56" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+                <button class="close">
+                  <i class="las la-times" style="font-size: 4rem"></i>
+                  <span class="blind">닫기</span>
+                </button>
+              </div>
+
               <li>
                 <a href="#">
-                  <span>menu1</span>
+                  <span>COMPANY</span>
                 </a>
               </li>
               <li>
-                <a href="#"><span>menu2</span></a>
+                <a href="#"><span>ARTIST</span></a>
               </li>
               <li>
-                <a href="#"><span>menu3</span></a>
+                <a href="#"><span>NEWS ROOM</span></a>
               </li>
               <li>
-                <a href="#"><span>menu4</span></a>
+                <a href="#"><span>AUDITION</span></a>
+              </li>
+              <li>
+                <a href="#"><span>SERVICE</span></a>
               </li>
             </ul>
           </nav>
-          <div class="util">
-            <!-- active 추가시 활성화 -->
-            <div class="lang">
-              <button class="lang__btn">kor</button>
-              <ul class="lang__lst">
-                <li>kor</li>
-                <li>eng</li>
-              </ul>
+        </header>
+        <div class="intro panel">
+          <!-- Slider main container -->
+          <div class="swiper slide-intro">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <video autoplay loop muted playsinline>
+                  <source src="../resources/images/pattern/common/focus.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="swiper-slide">
+                <video autoplay loop muted playsinline>
+                  <source src="../resources/images/pattern/common/aespa.mp4" type="video/mp4" />
+                </video>
+              </div>
+
+              <div class="swiper-slide">
+                <video autoplay loop muted playsinline>
+                  <source src="../resources/images/pattern/common/flyup.mp4" type="video/mp4" />
+                </video>
+              </div>
             </div>
-            <button class="search">
-              <span class="blind">검색</span>
-            </button>
-            <button class="all-menu">
-              <span class="blind">전체메뉴</span>
-            </button>
+            <div class="swiper-controll-box">
+              <div class="swiper-button">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
         </div>
-        <!-- active 추가시 활성화 -->
-        <nav id="nav-all" class="">
-          <ul class="gnb__depth1">
-            <li>
-              <a href="#">
-                <span>menu1</span>
-              </a>
-            </li>
-            <li>
-              <a href="#"><span>menu2</span></a>
-            </li>
-            <li>
-              <a href="#"><span>menu3</span></a>
-            </li>
-            <li>
-              <a href="#"><span>menu4</span></a>
-            </li>
-          </ul>
+        <main id="container">
+          <section class="sec_g sec_label panel">
+            <div class="inner">
+              <h2 class="sec_tit">LIC</h2>
+              <p class="sec_label_desc">LIC는 Labels In Company의 약자로, SM엔터테인먼트의 사내 레이블입니다.</p>
+              <div class="sec_moreBtn">
+                <a href="#">자세히 보기</a>
+              </div>
+              <div class="sec_label_img">
+                <picture>
+                  <source media="(max-width: 600px)" srcset="../resources/images/pattern/common/label_mobile.png" />
+                  <img src="../resources/images/pattern/common/label.png" alt="label image" />
+                </picture>
+              </div>
+            </div>
+          </section>
 
-          <button class="close">
-            <span class="">전체메뉴 닫기</span>
-          </button>
-        </nav>
-      </header>
-      <div class="intro">
-        <!-- Slider main container -->
-        <div class="swiper slide-intro">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <a href="#">
-                <picture>
-                  <source srcset="https://images.unsplash.com/photo-1515002246390-7bf7e8f87b54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 1024px)" />
-                  <source srcset="https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 600px)" />
-                  <source srcset="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                  <img src="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flowers" />
-                </picture>
-                <div class="text-area">
-                  <div class="inner">
-                    <strong class="text-area__tit">슬라이드 제목</strong>
-                    <p class="text-area__cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <span class="text-area__goto text-area__goto--hidden">바로가기</span>
+          <!-- ㄴㅠㅅㅡㅅㅔㄱㅅㅕㄴ -->
+          <section class="sec_g sec_artist panel">
+            <div class="inner">
+              <div class="sec_artist_box">
+                <div class="left_box">
+                  <h3 class="sec_tit">
+                    SM엔터테인먼트는<br />
+                    세계적인 아티스트들이 소속된<br />
+                    글로벌 음악 기업입니다.
+                  </h3>
+                  <div class="sec_moreBtn">
+                    <a href="#">아티스트 전체보기</a>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#">
-                <picture>
-                  <source srcset="https://images.unsplash.com/photo-1515002246390-7bf7e8f87b54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 1024px)" />
-                  <source srcset="https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 600px)" />
-                  <source srcset="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                  <img src="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flowers" />
-                </picture>
-                <div class="text-area">
-                  <div class="inner">
-                    <strong class="text-area__tit">슬라이드 제목</strong>
-                    <p class="text-area__cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <span class="text-area__goto text-area__goto--hidden">바로가기</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#">
-                <picture>
-                  <source srcset="https://images.unsplash.com/photo-1515002246390-7bf7e8f87b54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 1024px)" />
-                  <source srcset="https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 600px)" />
-                  <source srcset="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                  <img src="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flowers" />
-                </picture>
-                <div class="text-area">
-                  <div class="inner">
-                    <strong class="text-area__tit">슬라이드 제목</strong>
-                    <p class="text-area__cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <span class="text-area__goto text-area__goto--hidden">바로가기</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#">
-                <picture>
-                  <source srcset="https://images.unsplash.com/photo-1515002246390-7bf7e8f87b54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 1024px)" />
-                  <source srcset="https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 600px)" />
-                  <source srcset="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                  <img src="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flowers" />
-                </picture>
-                <div class="text-area">
-                  <div class="inner">
-                    <strong class="text-area__tit">슬라이드 제목</strong>
-                    <p class="text-area__cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <span class="text-area__goto text-area__goto--hidden">바로가기</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#">
-                <picture>
-                  <source srcset="https://images.unsplash.com/photo-1515002246390-7bf7e8f87b54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 1024px)" />
-                  <source srcset="https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" media="(min-width: 600px)" />
-                  <source srcset="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                  <img src="https://images.unsplash.com/photo-1516139008210-96e45dccd83b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flowers" />
-                </picture>
-                <div class="text-area">
-                  <div class="inner">
-                    <strong class="text-area__tit">슬라이드 제목</strong>
-                    <p class="text-area__cont">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <span class="text-area__goto text-area__goto--hidden">바로가기</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-      </div>
-      <main id="container">
-        <!-- ㄴㅠㅅㅡㅅㅔㄱㅅㅕㄴ -->
-        <section class="sec-g sec-news bg-gray">
-          <div class="inner">
-            <h2 class="sec-g__tit">Labels In Company</h2>
-            <p class="sec-g__desc">LIC는 Labels In Company의 약자로, SM엔터테인먼트의 사내 레이블입니다.</p>
-            <a href="#" class="sec-g__more">더보기</a>
-            <div class="sec-g__cont">label 이미지</div>
-          </div>
-        </section>
-
-        <!-- ㄴㅠㅅㅡㅅㅔㄱㅅㅕㄴ -->
-        <section class="sec-g sec-about">
-          <div class="inner">
-            <h2 class="sec-g__tit">SM엔터테인먼트는 세계적인 아티스트들이 소속된 글로벌 음악 기업입니다.</h2>
-            <a href="#" class="sec-g__more">아티스트 전체보기</a>
-          </div>
-        </section>
-        <!-- 스튜디오 섹션 -->
-        <section class="sec-g sec-studio">
-          <div class="inner">
-            <h2 class="sec-g__tit">SM엔터테인먼트의 새로운 소식을 만나보세요</h2>
-            <div class="sec-g__cont">
-              <div class="swiper slide-studio">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a href="#">
-                      <img src="https://www.wooriam.kr/upload/public/board/LnMCTNmG6JaCGQHJ/tb5eAihFnIe9tAmJ.jpg" alt="" />
-                      <strong>미국 공모주 정말 쉽게 받는 방법</strong>
-                      <em>2024.10.16</em>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#">
-                      <img src="https://www.wooriam.kr/upload/public/board/LnMCTNmG6JaCGQHJ/tb5eAihFnIe9tAmJ.jpg" alt="" />
-                      <strong>미국 공모주 정말 쉽게 받는 방법</strong>
-                      <em>2024.10.16</em>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#">
-                      <img src="https://www.wooriam.kr/upload/public/board/LnMCTNmG6JaCGQHJ/tb5eAihFnIe9tAmJ.jpg" alt="" />
-                      <strong>미국 공모주 정말 쉽게 받는 방법</strong>
-                      <em>2024.10.16</em>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#">
-                      <img src="https://www.wooriam.kr/upload/public/board/LnMCTNmG6JaCGQHJ/tb5eAihFnIe9tAmJ.jpg" alt="" />
-                      <strong>미국 공모주 정말 쉽게 받는 방법</strong>
-                      <em>2024.10.16</em>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#">
-                      <img src="https://www.wooriam.kr/upload/public/board/LnMCTNmG6JaCGQHJ/tb5eAihFnIe9tAmJ.jpg" alt="" />
-                      <strong>미국 공모주 정말 쉽게 받는 방법</strong>
-                      <em>2024.10.16</em>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#">
-                      <img src="https://www.wooriam.kr/upload/public/board/LnMCTNmG6JaCGQHJ/tb5eAihFnIe9tAmJ.jpg" alt="" />
-                      <strong>미국 공모주 정말 쉽게 받는 방법</strong>
-                      <em>2024.10.16</em>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#">
-                      <img src="https://www.wooriam.kr/upload/public/board/LnMCTNmG6JaCGQHJ/tb5eAihFnIe9tAmJ.jpg" alt="" />
-                      <strong>미국 공모주 정말 쉽게 받는 방법</strong>
-                      <em>2024.10.16</em>
-                    </a>
-                  </div>
+                <div class="right_box">
+                  <ul class="artist_card_left">
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/aespa.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/exo.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/gg.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/shinee.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/tvxq.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/aespa.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/exo.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/gg.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/shinee.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/tvxq.png" />
+                    </li>
+                  </ul>
+                  <ul class="artist_card_right">
+                    <li>
+                      <img src="../resources/images/pattern/common/riize.jpg" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/redvelvet.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/hearts2hearts.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/boa.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/nctdream.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/riize.jpg" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/redvelvet.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/hearts2hearts.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/boa.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/nctdream.png" />
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <a href="#" class="sec-g__more">새로운 소식 더보기</a>
+          </section>
+          <section class="sec_g sec_artist_mobile panel">
+            <div class="inner">
+              <div class="sec_artist_box">
+                <div class="left_box">
+                  <h3 class="sec_tit">
+                    SM엔터테인먼트는<br />
+                    세계적인 아티스트들이 소속된<br />
+                    글로벌 음악 기업입니다.
+                  </h3>
+                  <div class="sec_moreBtn">
+                    <a href="#">아티스트 전체보기</a>
+                  </div>
+                </div>
+                <div class="right_box">
+                  <ul class="artist_card_top">
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/aespa.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/exo.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/gg.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/shinee.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/tvxq.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/aespa.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/exo.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/gg.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/shinee.png" />
+                    </li>
+                    <li class="artist_card_item">
+                      <img src="../resources/images/pattern/common/tvxq.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/riize.jpg" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/redvelvet.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/hearts2hearts.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/boa.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/nctdream.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/riize.jpg" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/redvelvet.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/hearts2hearts.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/boa.png" />
+                    </li>
+                    <li>
+                      <img src="../resources/images/pattern/common/nctdream.png" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- 스튜디오 섹션 -->
+          <section class="sec_g sec_news panel">
+            <div class="inner">
+              <h2 class="sec_tit">SM엔터테인먼트의 새로운 소식을 만나보세요</h2>
+              <div class="sec_news_list">
+                <div class="news_box">
+                  <a href="#" class="news_box_item">
+                    <div class="news_img_area"><img src="../resources/images/pattern/common/nct_news.png" /></div>
+                    <div class="news_text_area">
+                      <p>NCT WISH, 타이틀곡 ‘poppop’ 짜릿하게 터지는 청량감</p>
+                      <span>2025.03.29</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="news_box">
+                  <a href="#" class="news_box_item">
+                    <div class="news_img_area"><img src="../resources/images/pattern/common/aespa_news.png" /></div>
+                    <div class="news_text_area">
+                      <p>에스파 ‘Whiplash’ 영어 버전, 오늘(27일) 오후 1시 공개</p>
+                      <span>2025.03.28</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="news_box">
+                  <a href="#" class="news_box_item">
+                    <div class="news_img_area"><img src="../resources/images/pattern/common/tvxq_news.png" /></div>
+                    <div class="news_text_area">
+                      <p>동방신기, 日 데뷔 20주년 기념 TV아사히 특집 단독 방송 방영</p>
+                      <span>2025.03.28</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="news_box">
+                  <a href="#" class="news_box_item">
+                    <div class="news_img_area"><img src="../resources/images/pattern/common/nctten_news.png" /></div>
+                    <div class="news_text_area">
+                      <p>NCT 텐, 새 미니앨범 ‘STUNNER’로 성공적 컴백! 각종 글로벌 차트 1위</p>
+                      <span>2025.03.28</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="sec_moreBtn">
+                <a href="#">더 보기</a>
+              </div>
+            </div>
+          </section>
+          <section class="sec_banner panel">
+            <div class="inner">
+              <div class="banner_item1">
+                <strong>AUDITION</strong>
+                <p>E-mail&Homepage Audition</p>
+                <a href="#" class="banner_btn">자세히 보기</a>
+              </div>
+              <div class="banner_item2">
+                <strong>CAREER</strong>
+                <p>Find Your Dream with SM</p>
+                <a href="#" class="banner_btn">자세히 보기</a>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer id="footer">
+          <div class="foot_content_pc">
+            <div class="footer_left">
+              <div class="footer_logo">
+                <svg width="253" height="56" viewBox="0 0 253 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_291_4264)">
+                    <path
+                      d="M94.2349 14.573L95.5842 13.1113C96.1588 13.686 97.4893 14.8666 99.7069 14.8666C101.718 14.8666 102.412 14.0483 102.412 13.2175C102.412 11.9682 101.094 11.7433 100.057 11.4622C98.8636 11.1312 97.9578 11.0125 96.8647 10.544C95.2531 9.86311 94.7846 8.70126 94.7846 7.7268C94.7846 5.50304 97.177 4.30371 99.482 4.30371C101.35 4.30371 103.174 4.97833 104.279 5.95279L103.236 7.51442C102.368 6.85229 101.137 6.22764 99.4945 6.22764C98.1452 6.22764 96.9084 6.62741 96.9084 7.67058C96.9084 8.53885 97.6518 8.90739 99.6132 9.35714C101.468 9.77566 104.535 10.3816 104.535 13.2487C104.535 15.8348 101.918 16.8592 99.7881 16.8592C96.6148 16.8592 94.7784 15.1914 94.2224 14.5667"
+                      fill="black"
+                    ></path>
+                    <path d="M119.465 4.50977V16.6592H117.366V8.17647L113.468 13.5485L109.583 8.15773V16.6592H107.502V4.50977H109.426L113.449 10.1754L117.472 4.50977H119.465Z" fill="black"></path>
+                    <path d="M95.0469 25.3545H104.179V27.3221H97.1644V30.1018H102.362V32.082H97.1644V35.5238H104.267V37.504H95.0469V25.3545Z" fill="black"></path>
+                    <path d="M107.246 25.3545H109.17L115.704 33.8685L115.717 25.3545H117.797V37.504H115.892L109.32 28.9525V37.504H107.246V25.3545Z" fill="black"></path>
+                    <path d="M124.312 27.3346H120.495V25.3545H130.252V27.3346H126.442V37.504H124.312V27.3346Z" fill="black"></path>
+                    <path d="M132.957 25.3545H142.089V27.3221H135.068V30.1018H140.272V32.082H135.068V35.5238H142.177V37.504H132.957V25.3545Z" fill="black"></path>
+                    <path d="M145.15 25.3545H151.334C153.97 25.3545 154.801 27.3721 154.801 29.0025C154.801 30.3767 154.195 31.9883 152.446 32.4943L155.444 37.4977H153.089L150.266 32.6692H147.268V37.4977H145.15V25.3545ZM151.128 30.689C152.171 30.689 152.69 30.0144 152.69 29.0025C152.69 27.9905 152.19 27.3534 151.216 27.3534H147.261V30.689H151.122H151.128Z" fill="black"></path>
+                    <path d="M160.436 27.3346H156.619V25.3545H166.376V27.3346H162.566V37.504H160.436V27.3346Z" fill="black"></path>
+                    <path d="M172.129 25.2861H173.984L179.631 37.4981H177.376L176.095 34.6684H169.924L168.606 37.4981H166.476L172.123 25.2861H172.129ZM175.215 32.7382L173.047 27.9784L170.83 32.7382H175.215Z" fill="black"></path>
+                    <path d="M184.054 25.3545H181.936V37.4977H184.054V25.3545Z" fill="black"></path>
+                    <path d="M187.739 25.3545H189.663L196.191 33.8685L196.209 25.3545H198.289V37.504H196.384L189.813 28.9525V37.504H187.739V25.3545Z" fill="black"></path>
+                    <path d="M213.812 25.3545V37.504H211.719V29.0212L207.815 34.3932L203.936 29.0025V37.504H201.856V25.3545H203.78L207.803 31.0201L211.819 25.3545H213.812Z" fill="black"></path>
+                    <path d="M217.379 25.3545H226.511V27.3221H219.496V30.1018H224.693V32.082H219.496V35.5238H226.599V37.504H217.379V25.3545Z" fill="black"></path>
+                    <path d="M229.578 25.3545H231.502L238.036 33.8685L238.048 25.3545H240.128V37.504H238.223L231.658 28.9525V37.504H229.578V25.3545Z" fill="black"></path>
+                    <path d="M246.644 27.3346H242.833V25.3545H252.59V27.3346H248.774V37.504H246.644V27.3346Z" fill="black"></path>
+                    <path
+                      d="M22.0315 55.9996C19.4392 55.9996 17.003 54.9877 15.1728 53.1512L1.51166 39.4588C0.530954 38.4781 0 37.1726 0 35.7859C0 34.3992 0.549693 33.0999 1.5304 32.1192C3.54177 30.1203 6.81495 30.1328 8.81383 32.1379L24.9611 48.3226C26.1479 49.5157 27.6283 50.309 29.2399 50.6339C31.1951 47.3857 30.7766 43.1006 27.9844 40.3021L8.85756 21.1253C5.07217 17.3274 5.07217 11.1559 8.85756 7.35801C10.694 5.52154 13.1302 4.50336 15.7225 4.50336C15.76 4.50336 15.7974 4.50336 15.8349 4.50336C16.216 3.90369 16.6719 3.33526 17.1904 2.8168C20.9758 -0.956098 27.1224 -0.943605 30.8953 2.83554L44.6563 16.6341L59.0795 2.19839C60.9785 0.299451 63.6957 -0.243996 66.1756 0.780433C68.0933 1.57374 69.4487 3.12912 69.9734 5.04055C71.8037 4.04111 73.9837 3.91618 76.0138 4.75322C78.7186 5.87134 80.4051 8.39493 80.4051 11.3308V34.0369C80.4051 37.2101 77.8316 39.7899 74.6646 39.7899C71.4976 39.7899 68.924 37.2101 68.924 34.0369V7.48294L55.9938 20.4507C54.7444 21.7 53.0829 22.3934 51.3214 22.3934C49.5536 22.3934 47.892 21.7063 46.6427 20.4507L44.6563 18.4643L43.1384 19.9885C40.0402 23.093 36.3735 22.9993 33.1315 19.7448L21.6879 8.27C20.2949 6.87078 18.4959 6.02126 16.5595 5.83386C15.9474 7.01445 15.6225 8.33871 15.6163 9.71295C15.6163 11.9742 16.4908 14.098 18.0837 15.6971L37.8039 35.4673C41.5893 39.2652 41.5893 45.443 37.8039 49.2409C35.9674 51.0836 33.525 52.0955 30.9327 52.0955C30.5704 52.0955 30.2144 52.0768 29.8646 52.0393C29.5772 52.4328 29.2587 52.8076 28.9026 53.1574C27.0724 54.9939 24.63 56.0059 22.0377 56.0059L22.0315 55.9996ZM5.16587 31.9131C4.17892 31.9131 3.19197 32.2878 2.43614 33.0374C1.69905 33.7683 1.28678 34.749 1.28678 35.7921C1.28678 36.8353 1.68656 37.816 2.42365 38.5531L16.0785 52.2455C17.6651 53.8383 19.7827 54.7191 22.0315 54.7191C24.2802 54.7191 26.3915 53.8383 27.9844 52.2455C28.1405 52.0893 28.2842 51.9331 28.4279 51.7645C26.7913 51.3272 25.2859 50.4652 24.0553 49.2346L7.90809 33.0499C7.15226 32.2941 6.15906 31.9131 5.16587 31.9131ZM30.6204 50.8025C30.7204 50.8025 30.8203 50.8025 30.9202 50.8025C33.1752 50.8025 35.2928 49.9218 36.8857 48.3226C40.1713 45.0245 40.1713 39.6587 36.8857 36.3606L17.1654 16.5904C15.3289 14.7476 14.3233 12.299 14.3233 9.70045C14.3233 8.33871 14.6044 7.01445 15.1353 5.80263C13.1052 5.94005 11.2125 6.80207 9.7633 8.25751C6.47764 11.5494 6.47764 16.9152 9.7633 20.2071L28.8901 39.3839C31.9634 42.4634 32.5381 47.1171 30.6204 50.79V50.8025ZM70.1921 6.40229C70.1983 6.53972 70.2046 6.68339 70.2046 6.82081V34.0369C70.2046 36.498 72.2035 38.5031 74.6583 38.5031C77.1132 38.5031 79.1121 36.498 79.1121 34.0369V11.3308C79.1121 8.92589 77.7316 6.85829 75.5141 5.9463C73.7089 5.20296 71.76 5.39036 70.1858 6.40229H70.1921ZM45.5621 17.5523L47.5485 19.545C48.5542 20.5569 49.8909 21.1066 51.3151 21.1066C52.7393 21.1066 54.0761 20.5506 55.0818 19.545L68.2869 6.30235C68.4618 6.12745 68.6429 5.96504 68.8241 5.80888C68.4993 4.08484 67.3562 2.66063 65.6758 1.96727C63.6832 1.14273 61.5032 1.57999 59.979 3.10414L45.5558 17.5523H45.5621ZM17.3091 4.63453C19.3017 4.95935 21.1382 5.90257 22.5936 7.35801L34.0373 18.8329C36.7795 21.5813 39.6216 21.6875 42.2264 19.0765L43.7506 17.5523L29.9833 3.74753C26.7101 0.468107 21.3818 0.455614 18.0962 3.72879C17.8088 4.01613 17.5465 4.31596 17.3091 4.62828V4.63453Z"
+                      fill="black"
+                    ></path>
+                    <path d="M74.6582 55.3439C71.2726 55.3439 68.5242 52.583 68.5242 49.1974C68.5242 45.8117 71.2789 43.0508 74.6582 43.0508C78.0376 43.0508 80.7923 45.8117 80.7923 49.1974C80.7923 52.583 78.0376 55.3439 74.6582 55.3439ZM74.6582 44.3313C71.9847 44.3313 69.8047 46.5114 69.8047 49.1974C69.8047 51.8834 71.9785 54.0634 74.6582 54.0634C77.338 54.0634 79.5055 51.8834 79.5055 49.1974C79.5055 46.5114 77.3318 44.3313 74.6582 44.3313Z" fill="black"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_291_4264">
+                      <rect width="252.59" height="56" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="copyright">
+                <p>
+                  Business Registration No.: 129-86-31394 Online Marketing Report No.: No. 2009-GyeonggiSeongnam-0510
+                  <br />
+
+                  CEO: Kim Yuwon Address: NAVER Green Factory, 6, Buljeong-ro, Jeongja-dong, Bundang-gu, Seongnam-si, Gyeonggi-do, Korea
+                </p>
+              </div>
+              <div class="link_txt">Business Ethics Consulting Center</div>
+            </div>
           </div>
-        </section>
-        <div>배너1</div>
-        <div>배너2</div>
-      </main>
-      <footer id="footer" include-html="./layout/footer.html"></footer>
+          <div class="foot_content_mo">
+            <div class="footer_left">
+              <div class="footer_logo">
+                <svg width="253" height="56" viewBox="0 0 253 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_291_4264)">
+                    <path
+                      d="M94.2349 14.573L95.5842 13.1113C96.1588 13.686 97.4893 14.8666 99.7069 14.8666C101.718 14.8666 102.412 14.0483 102.412 13.2175C102.412 11.9682 101.094 11.7433 100.057 11.4622C98.8636 11.1312 97.9578 11.0125 96.8647 10.544C95.2531 9.86311 94.7846 8.70126 94.7846 7.7268C94.7846 5.50304 97.177 4.30371 99.482 4.30371C101.35 4.30371 103.174 4.97833 104.279 5.95279L103.236 7.51442C102.368 6.85229 101.137 6.22764 99.4945 6.22764C98.1452 6.22764 96.9084 6.62741 96.9084 7.67058C96.9084 8.53885 97.6518 8.90739 99.6132 9.35714C101.468 9.77566 104.535 10.3816 104.535 13.2487C104.535 15.8348 101.918 16.8592 99.7881 16.8592C96.6148 16.8592 94.7784 15.1914 94.2224 14.5667"
+                      fill="black"
+                    ></path>
+                    <path d="M119.465 4.50977V16.6592H117.366V8.17647L113.468 13.5485L109.583 8.15773V16.6592H107.502V4.50977H109.426L113.449 10.1754L117.472 4.50977H119.465Z" fill="black"></path>
+                    <path d="M95.0469 25.3545H104.179V27.3221H97.1644V30.1018H102.362V32.082H97.1644V35.5238H104.267V37.504H95.0469V25.3545Z" fill="black"></path>
+                    <path d="M107.246 25.3545H109.17L115.704 33.8685L115.717 25.3545H117.797V37.504H115.892L109.32 28.9525V37.504H107.246V25.3545Z" fill="black"></path>
+                    <path d="M124.312 27.3346H120.495V25.3545H130.252V27.3346H126.442V37.504H124.312V27.3346Z" fill="black"></path>
+                    <path d="M132.957 25.3545H142.089V27.3221H135.068V30.1018H140.272V32.082H135.068V35.5238H142.177V37.504H132.957V25.3545Z" fill="black"></path>
+                    <path d="M145.15 25.3545H151.334C153.97 25.3545 154.801 27.3721 154.801 29.0025C154.801 30.3767 154.195 31.9883 152.446 32.4943L155.444 37.4977H153.089L150.266 32.6692H147.268V37.4977H145.15V25.3545ZM151.128 30.689C152.171 30.689 152.69 30.0144 152.69 29.0025C152.69 27.9905 152.19 27.3534 151.216 27.3534H147.261V30.689H151.122H151.128Z" fill="black"></path>
+                    <path d="M160.436 27.3346H156.619V25.3545H166.376V27.3346H162.566V37.504H160.436V27.3346Z" fill="black"></path>
+                    <path d="M172.129 25.2861H173.984L179.631 37.4981H177.376L176.095 34.6684H169.924L168.606 37.4981H166.476L172.123 25.2861H172.129ZM175.215 32.7382L173.047 27.9784L170.83 32.7382H175.215Z" fill="black"></path>
+                    <path d="M184.054 25.3545H181.936V37.4977H184.054V25.3545Z" fill="black"></path>
+                    <path d="M187.739 25.3545H189.663L196.191 33.8685L196.209 25.3545H198.289V37.504H196.384L189.813 28.9525V37.504H187.739V25.3545Z" fill="black"></path>
+                    <path d="M213.812 25.3545V37.504H211.719V29.0212L207.815 34.3932L203.936 29.0025V37.504H201.856V25.3545H203.78L207.803 31.0201L211.819 25.3545H213.812Z" fill="black"></path>
+                    <path d="M217.379 25.3545H226.511V27.3221H219.496V30.1018H224.693V32.082H219.496V35.5238H226.599V37.504H217.379V25.3545Z" fill="black"></path>
+                    <path d="M229.578 25.3545H231.502L238.036 33.8685L238.048 25.3545H240.128V37.504H238.223L231.658 28.9525V37.504H229.578V25.3545Z" fill="black"></path>
+                    <path d="M246.644 27.3346H242.833V25.3545H252.59V27.3346H248.774V37.504H246.644V27.3346Z" fill="black"></path>
+                    <path
+                      d="M22.0315 55.9996C19.4392 55.9996 17.003 54.9877 15.1728 53.1512L1.51166 39.4588C0.530954 38.4781 0 37.1726 0 35.7859C0 34.3992 0.549693 33.0999 1.5304 32.1192C3.54177 30.1203 6.81495 30.1328 8.81383 32.1379L24.9611 48.3226C26.1479 49.5157 27.6283 50.309 29.2399 50.6339C31.1951 47.3857 30.7766 43.1006 27.9844 40.3021L8.85756 21.1253C5.07217 17.3274 5.07217 11.1559 8.85756 7.35801C10.694 5.52154 13.1302 4.50336 15.7225 4.50336C15.76 4.50336 15.7974 4.50336 15.8349 4.50336C16.216 3.90369 16.6719 3.33526 17.1904 2.8168C20.9758 -0.956098 27.1224 -0.943605 30.8953 2.83554L44.6563 16.6341L59.0795 2.19839C60.9785 0.299451 63.6957 -0.243996 66.1756 0.780433C68.0933 1.57374 69.4487 3.12912 69.9734 5.04055C71.8037 4.04111 73.9837 3.91618 76.0138 4.75322C78.7186 5.87134 80.4051 8.39493 80.4051 11.3308V34.0369C80.4051 37.2101 77.8316 39.7899 74.6646 39.7899C71.4976 39.7899 68.924 37.2101 68.924 34.0369V7.48294L55.9938 20.4507C54.7444 21.7 53.0829 22.3934 51.3214 22.3934C49.5536 22.3934 47.892 21.7063 46.6427 20.4507L44.6563 18.4643L43.1384 19.9885C40.0402 23.093 36.3735 22.9993 33.1315 19.7448L21.6879 8.27C20.2949 6.87078 18.4959 6.02126 16.5595 5.83386C15.9474 7.01445 15.6225 8.33871 15.6163 9.71295C15.6163 11.9742 16.4908 14.098 18.0837 15.6971L37.8039 35.4673C41.5893 39.2652 41.5893 45.443 37.8039 49.2409C35.9674 51.0836 33.525 52.0955 30.9327 52.0955C30.5704 52.0955 30.2144 52.0768 29.8646 52.0393C29.5772 52.4328 29.2587 52.8076 28.9026 53.1574C27.0724 54.9939 24.63 56.0059 22.0377 56.0059L22.0315 55.9996ZM5.16587 31.9131C4.17892 31.9131 3.19197 32.2878 2.43614 33.0374C1.69905 33.7683 1.28678 34.749 1.28678 35.7921C1.28678 36.8353 1.68656 37.816 2.42365 38.5531L16.0785 52.2455C17.6651 53.8383 19.7827 54.7191 22.0315 54.7191C24.2802 54.7191 26.3915 53.8383 27.9844 52.2455C28.1405 52.0893 28.2842 51.9331 28.4279 51.7645C26.7913 51.3272 25.2859 50.4652 24.0553 49.2346L7.90809 33.0499C7.15226 32.2941 6.15906 31.9131 5.16587 31.9131ZM30.6204 50.8025C30.7204 50.8025 30.8203 50.8025 30.9202 50.8025C33.1752 50.8025 35.2928 49.9218 36.8857 48.3226C40.1713 45.0245 40.1713 39.6587 36.8857 36.3606L17.1654 16.5904C15.3289 14.7476 14.3233 12.299 14.3233 9.70045C14.3233 8.33871 14.6044 7.01445 15.1353 5.80263C13.1052 5.94005 11.2125 6.80207 9.7633 8.25751C6.47764 11.5494 6.47764 16.9152 9.7633 20.2071L28.8901 39.3839C31.9634 42.4634 32.5381 47.1171 30.6204 50.79V50.8025ZM70.1921 6.40229C70.1983 6.53972 70.2046 6.68339 70.2046 6.82081V34.0369C70.2046 36.498 72.2035 38.5031 74.6583 38.5031C77.1132 38.5031 79.1121 36.498 79.1121 34.0369V11.3308C79.1121 8.92589 77.7316 6.85829 75.5141 5.9463C73.7089 5.20296 71.76 5.39036 70.1858 6.40229H70.1921ZM45.5621 17.5523L47.5485 19.545C48.5542 20.5569 49.8909 21.1066 51.3151 21.1066C52.7393 21.1066 54.0761 20.5506 55.0818 19.545L68.2869 6.30235C68.4618 6.12745 68.6429 5.96504 68.8241 5.80888C68.4993 4.08484 67.3562 2.66063 65.6758 1.96727C63.6832 1.14273 61.5032 1.57999 59.979 3.10414L45.5558 17.5523H45.5621ZM17.3091 4.63453C19.3017 4.95935 21.1382 5.90257 22.5936 7.35801L34.0373 18.8329C36.7795 21.5813 39.6216 21.6875 42.2264 19.0765L43.7506 17.5523L29.9833 3.74753C26.7101 0.468107 21.3818 0.455614 18.0962 3.72879C17.8088 4.01613 17.5465 4.31596 17.3091 4.62828V4.63453Z"
+                      fill="black"
+                    ></path>
+                    <path d="M74.6582 55.3439C71.2726 55.3439 68.5242 52.583 68.5242 49.1974C68.5242 45.8117 71.2789 43.0508 74.6582 43.0508C78.0376 43.0508 80.7923 45.8117 80.7923 49.1974C80.7923 52.583 78.0376 55.3439 74.6582 55.3439ZM74.6582 44.3313C71.9847 44.3313 69.8047 46.5114 69.8047 49.1974C69.8047 51.8834 71.9785 54.0634 74.6582 54.0634C77.338 54.0634 79.5055 51.8834 79.5055 49.1974C79.5055 46.5114 77.3318 44.3313 74.6582 44.3313Z" fill="black"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_291_4264">
+                      <rect width="252.59" height="56" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <div class="copyright">
+                <p>
+                  Business Registration No.: 129-86-31394 Online Marketing Report No.: No. 2009-GyeonggiSeongnam-0510
+                  <br />
+
+                  CEO: Kim Yuwon Address: NAVER Green Factory, 6, Buljeong-ro, Jeongja-dong, Bundang-gu, Seongnam-si, Gyeonggi-do, Korea
+                </p>
+              </div>
+              <div class="link_txt">Business Ethics Consulting Center</div>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="../resources/js/gsap.js"></script>
   </body>
 </html>

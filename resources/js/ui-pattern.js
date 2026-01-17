@@ -18,10 +18,28 @@ $("#gnb").mouseleave(function () {
   $("#header").removeClass("active");
 });
 
+// 토글 기능 추가
 $(".lang__btn").click(function () {
-  $(".lang__lst").show();
+  $(".lang").toggleClass("active");
 });
 
+// lang__lst의 li를 클릭하면 닫기
 $(".lang__lst li").click(function () {
-  $(".lang__lst").hide();
+  $(".lang").removeClass("active");
+});
+
+// 다른 곳 클릭시 lang 메뉴 닫기 (선택사항)
+$(document).click(function (e) {
+  if (!$(e.target).closest(".lang").length) {
+    $(".lang").removeClass("active");
+  }
+});
+
+window.addEventListener("scroll", function () {
+  const header = document.getElementById("header");
+  if (window.scrollY > 10) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
 });
