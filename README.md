@@ -1,6 +1,31 @@
-# 프로젝트명
+# 📁 프로젝트 소개
+국내 최대 K-pop 매니지먼트 'SM엔터테인먼트' 홈페이지 리뉴얼 프로젝트입니다.
 
-웹 기본 템플릿 - https://odada-o.github.io/-themplates-html-scss-js/pages/
+# 📁 섹션 소개
+
+### ✅ Intro - 소속 아티스트 최신 발매 뮤직비디오 Swiper
+<img width="1784" height="901" alt="스크린샷 2026-01-18 오후 8 18 16" src="https://github.com/user-attachments/assets/7d8e9e8e-7fb3-4f42-9871-9754dbfd3a2a" />
+
+
+### ✅ Section1 - 계열사 소개
+<img width="1784" height="896" alt="스크린샷 2026-01-18 오후 8 18 28" src="https://github.com/user-attachments/assets/f98b0b2e-3bf8-4c45-be9b-6dabd05e3e0b" />
+
+
+### ✅ Section1 - 소속 아티스트 소개
+<img width="1779" height="891" alt="스크린샷 2026-01-18 오후 8 18 41" src="https://github.com/user-attachments/assets/6215ca4e-e96c-43a7-992a-3be38e2643e9" />
+
+
+### ✅ Section1 - 뉴스&배너
+<img width="1784" height="802" alt="스크린샷 2026-01-18 오후 8 18 57" src="https://github.com/user-attachments/assets/f0f62c8c-845d-495c-abd0-d3d4e43e6fe6" />
+
+
+# ✨ 기술 스택
+<div>
+<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/SCSS-CC6699.svg?style=for-the-badge&logo=sass&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02.svg?style=for-the-badge&logo=greensock&logoColor=black" />
+  </div>
 
 ## 프로젝트 구조
 
